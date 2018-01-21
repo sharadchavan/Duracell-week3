@@ -276,36 +276,44 @@ header {
 
 header h1 {
     display: inline-block;
-    width: 40%;
+    width: 30%;
 }
 
-header .contact {
-    width: 60%;
+header ul {
+    width: 70%;
     float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li:nth-last-child(2) {
+    padding-right: 40px;
+    border-right: solid 1px #fff;
+}
+
+header ul li:last-child {
+    padding-left: 40px;
+    width: 25%;
+}
+
+header ul li a {
     color: #fff;
     font: 700 18px 'TradeGothic';
-}
-
-header .contact h4 {
-    width: 30%;
-    padding-right: 40px;
-    display: inline-block;
     text-transform: capitalize;
+    text-decoration: none;
 }
 
-header .contact h2 {
-    width: 30%;
-    padding-left: 40px;
-    border-left: solid 1px white;
-    display: inline-block;
+header ul li a span {
     text-transform: uppercase;
 }
 
-h2 span.white {
+header ul li a span.white {
     color: #fff;
 }
 
-h2 span.yellow {
+header ul li a span.yellow {
     color: #d6f200;
 }
 

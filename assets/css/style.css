@@ -277,8 +277,9 @@ sub {
 }
 
 header {
-    padding: 17px 170px 12px 170px;
+    padding: 17px 0 12px 0;
     background: url('../images/header-backgroud.png') no-repeat;
+    background-size: cover;
 }
 
 header h1 {
@@ -342,6 +343,7 @@ header ul li a span.yellow {
 
 .banner {
     background: url('../images/banner-background.png') no-repeat;
+    background-size: cover;
 }
 
 h2.heading {
@@ -381,8 +383,137 @@ p.description {
     background-size: cover;
 }
 
-.wrapper .how-it-works {
+.how-it-works {
+    padding-top: 47px;
+    margin-top: -47px;
     background: url('../images/background-howItworks.png') no-repeat;
     background-size: cover;
 }
 
+.smartphone-ad {
+    position: relative;
+}
+
+.smartphone-ad div {
+    height: 400px;
+    display: inline-block;
+}
+
+.smartphone-ad div.phone-left {
+    width: 67%;
+    background: url('../images/phone-photo.png') no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.smartphone-ad div.phone-right {
+    width: 52%;
+    position: absolute;
+    right: 0;
+    background: url('../images/phone-photo-right.png') no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.duracell-product {
+    padding: 34px 0 44px 0;
+    margin-top: -4px;
+    background-color: #242424;
+}
+
+.duracell-product .battery, .duracell-product .phone {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+
+.duracell-product div.battery h3 {
+    width: 55%;
+    min-width: 216px;
+    margin: 0 auto;
+    padding: 29px 0 11px 0;
+}
+
+.duracell-product div.phone h3 {
+    width: 44%;
+    min-width: 140px;
+    margin: 0 auto;
+    padding: 20px 0 11px 0;
+}
+
+.duracell-product div h3 {
+    font: 700 26px 'TradeGothic';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer-separator {
+    height: 10px;
+    background: url('../images/footer-separator.png');
+}
+
+footer {
+    background-color: #000;
+}
+
+.follow-us {
+    padding: 33px 0;
+    border-bottom: 1px solid white;
+}
+
+footer .follow-us .associates {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer .follow-us .social-media {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+footer .follow-us .social-media p, footer .follow-us .social-media ul {
+    padding-bottom: 0;
+    display: inline-block;
+}
+
+footer .follow-us .social-media p {
+    padding-right: 24px;
+}
+
+footer .follow-us ul li {
+    display: inline-block;
+    padding-right: 29px;
+}
+
+footer .company-details {
+    padding: 26px 0 25px 0;
+}
+footer .company-details .copy-right {
+    display: inline-block;
+}
+
+footer .company-details .copy-right p {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+footer .company-details .documents {
+    float: right;
+    text-transform: capitalize;
+}
+
+footer .company-details .documents a {
+    color:  #a76d2f;
+    font: 700 12px 'HelveticaNeue';
+    text-align: left;
+    padding: 0 5px;
+    border-right: 1px solid #a76d2f;
+    text-decoration: none;
+}
+
+footer .company-details .documents a:last-child {
+    padding-right: 0;
+    border-right: 0;
+}
